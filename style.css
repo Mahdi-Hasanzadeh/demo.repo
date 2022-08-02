@@ -2,7 +2,6 @@
     padding:0;
     margin: 0;
     box-sizing: border-box;
-
 }
 @font-face{
     font-family: "NiconneRegular";
@@ -12,7 +11,7 @@ body{
     background-color: #1d2b3a;
     color:white;
 }
-.top{
+/* .top{
     text-shadow: 1px 1px red;
     display:flex;
     justify-content: center;
@@ -20,16 +19,16 @@ body{
     min-height: 20vh;
     background-color: #1C3F64;
     font-size: 100%;
-}
-.content{
+} */
+/* .content{
     font-family: NiconneRegular;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 60vh;
     flex-direction: column;
-}
-.footer{
+} */
+/* .footer{
     min-height: 0.5vh;
     background-color: #0077FF;
 }
@@ -51,7 +50,7 @@ h3:hover{
     margin-top: 10px;
 }
 .button:hover{
-    /* color:#00CCFF; */
+    /* color:#00CCFF; 
     color: #255784;
     background-color:#2196f3;
     letter-spacing: 1px;
@@ -62,4 +61,58 @@ h3:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+.top{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    background-color:rgba(223, 133, 31, 0.99);
+    align-items: center;
+}
+.content{
+    height: 74vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(27, 97, 54, 0.43);
+    flex-direction: column;
+}
+h3{
+    font-family:NiconneRegular;
+    margin:25px;
+    font-style: italic;
+    font-size: 10vh;
+    text-shadow: 2px 2px red, 4px 4px  yellow;
+}
+.button{
+    font-family: monospace;    
+    color: white;
+    margin-top:30px;
+    border-style: none;
+    border-radius: 4px;
+    padding: 6px;
+    background-color: rgba(50, 99, 190, 0.09);
+}
+.button:hover{
+    letter-spacing: 4px;
+    background-color:#0F4D94;
+    transition-delay: 0.2s;
+}
+#name{
+    margin-top: 2px;
+    padding: 3px;
+    border: 1px outset yellow;
+    background-color:rgba(224, 62, 34, 0.43);
+    color: white;
+}
+#name:hover{
+    background-color: #13E29A;
+    letter-spacing: 1px;
+    padding: 5px;
+    box-shadow: 0 0 10px orange, 0 0 40px green
+    , 2px 2px 60px red;
+}
+label{
+    font-size: 18px;
+    margin-top: 10px;
 }
