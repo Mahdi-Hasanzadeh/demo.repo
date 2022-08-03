@@ -4,12 +4,36 @@
     box-sizing: border-box;
 }
 @font-face{
+    font-family: "RothenburgDecorative"; 
+    src: url('fonts/RothenburgDecorative.ttf'); 
+}
+@font-face{
+    font-family: "HangedLetters"; 
+    src: url('fonts/HangedLetters.ttf'); 
+}
+@font-face{
+    font-family: "GistLight"; 
+    src: url('fonts/GistLight.otf'); 
+}
+@font-face{
+    font-family: "Drift"; 
+    src: url('fonts/Drift.ttf'); 
+}
+@font-face{
+    font-family: "Blacker"; 
+    src: url('fonts/Blacker.ttf'); 
+}
+@font-face{
+    font-family: "AligotDeMirabelle"; 
+    src: url('fonts/Aligot de Mirabelle.ttf'); 
+}
+@font-face{
     font-family: "NiconneRegular";
     src: url('fonts/Niconne-Regular.ttf');
 }
 body{
     background-color: #1d2b3a;
-    color:white;
+    color:#000000;
 }
 /* .top{
     text-shadow: 1px 1px red;
@@ -69,35 +93,6 @@ h3:hover{
     background-color:rgba(223, 133, 31, 0.99);
     align-items: center;
 }
-.content{
-    height: 74vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(27, 97, 54, 0.43);
-    flex-direction: column;
-}
-h3{
-    font-family:NiconneRegular;
-    margin:25px;
-    font-style: italic;
-    font-size: 10vh;
-    text-shadow: 2px 2px red, 4px 4px  yellow;
-}
-.button{
-    font-family: monospace;    
-    color: white;
-    margin-top:30px;
-    border-style: none;
-    border-radius: 4px;
-    padding: 6px;
-    background-color: rgba(50, 99, 190, 0.09);
-}
-.button:hover{
-    letter-spacing: 4px;
-    background-color:#0F4D94;
-    transition-delay: 0.2s;
-}
 #name{
     margin-top: 2px;
     padding: 3px;
@@ -105,6 +100,48 @@ h3{
     background-color:rgba(224, 62, 34, 0.43);
     color: white;
 }
+.button{
+    font-family: monospace;    
+    color: white;
+    margin-top:10px;
+    border-style: none;
+    border-radius: 4px;
+    padding: 6px;
+    background-color: rgba(50, 99, 190, 0.09);
+}
+#Lfont{
+    color: white; 
+    margin-bottom:4px;
+}
+#fontSelection{
+    border-radius: 5px;
+    border-style: none;
+    padding: 2px;
+    background-color:rgba(224, 62, 34, 0.43);
+    color: white;
+}
+.content{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(27, 97, 54, 0.43);
+    flex-direction: column;
+}
+h3{
+    font-family:GistLight;
+    margin:25px;
+    font-style: italic;
+    font-size: 9vh;
+    text-shadow: 2px 2px red, 4px 4px  yellow;
+}
+
+.button:hover{
+    letter-spacing: 4px;
+    background-color:#0F4D94;
+    transition-delay: 0.2s;
+}
+
 #name:hover{
     background-color: #13E29A;
     letter-spacing: 1px;
@@ -115,4 +152,17 @@ h3{
 label{
     font-size: 18px;
     margin-top: 10px;
+}
+#fontSelection:hover{
+    letter-spacing: 1px;
+}
+h3:hover{
+ color: aqua;   
+}
+#fontSelection:hover{
+    background-color: #13E29A;
+    letter-spacing: 1px;
+    padding: 5px;
+    box-shadow: 0 0 10px orange, 0 0 40px green
+    , 2px 2px 60px red;
 }
