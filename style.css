@@ -129,7 +129,8 @@ h3:hover{
     flex-direction: column;
 }
 h3{
-    font-family:GistLight;
+    font-family: Blacker;
+    /* font-family:Arial, Helvetica, sans-serif; */
     margin:25px;
     font-style: italic;
     font-size: 9vh;

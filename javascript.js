@@ -4,3 +4,8 @@ function designedName(){
         document.getElementById("example").innerHTML = name;
     }
 }
+function changeFont(){
+    var selectedFont = document.getElementById("fontSelection").value;
+   // alert(typeof selectedFont);
+    document.getElementById("ex").style.fontFamily = selectedFont;
+}
