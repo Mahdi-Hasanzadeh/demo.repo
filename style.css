@@ -4,6 +4,39 @@
     box-sizing: border-box;
 }
 @font-face{
+    font-family: "BavistaSoulare"; 
+    src: url('fonts/BavistaSoulare.ttf'); 
+}
+@font-face{
+    font-family: "RuthlessDrippin"; 
+    src: url('fonts/ruthless-one/RuthlessDrippin.ttf'); 
+}
+@font-face{
+    font-family: "PlayfairDisplayItalic"; 
+    src: url('fonts/playfair-display/PlayfairDisplayItalic.ttf'); 
+}
+@font-face{
+    font-family: "Bombing"; 
+    src: url('fonts/Bombing.ttf'); 
+}
+@font-face{
+    font-family: "BroadcastTitling"; 
+    src: url('fonts/BroadcastTitling.ttf'); 
+}
+@font-face{
+    font-family: "FromCartoonBlocks"; 
+    src: url('fonts/FromCartoonBlocks.ttf'); 
+}
+@font-face{
+    font-family: "VictoriandecoDemo"; 
+    src: url('fonts/VictoriandecoDemo.ttf'); 
+}
+@font-face{
+    font-family: "WedgieRegular"; 
+    src: url('fonts/WedgieRegular.ttf'); 
+}
+
+@font-face{
     font-family: "RothenburgDecorative"; 
     src: url('fonts/RothenburgDecorative.ttf'); 
 }
@@ -131,7 +164,7 @@ h3:hover{
 h3{
     font-family: Blacker;
     /* font-family:Arial, Helvetica, sans-serif; */
-    margin:25px;
+    margin:10px;
     font-style: italic;
     font-size: 9vh;
     text-shadow: 2px 2px red, 4px 4px  yellow;
@@ -151,6 +184,7 @@ h3{
     , 2px 2px 60px red;
 }
 label{
+    color: white;
     font-size: 18px;
     margin-top: 10px;
 }
